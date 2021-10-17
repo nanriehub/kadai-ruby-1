@@ -1,15 +1,17 @@
-fnm = "南部"
-firstnm = "利江子"
-jyosi = "です。"
-age = 55
-age.to_s
-yowaihosoku = "歳です"
+introhosoku= [55.to_s,"歳","です。"]
+myoji = "南部"
+namae = "利江子"
 
 
-introdmy = fnm + firstnm + jyosi + age.to_s + yowaihosoku
+puts myoji + namae + introhosoku[2] + introhosoku[0] + introhosoku[1] + introhosoku[2]
 
 
-puts introdmy
+
+
+
+
+
+
 
 
 
